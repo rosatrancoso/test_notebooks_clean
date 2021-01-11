@@ -1,0 +1,7 @@
+- name: Ensure Clean Jupyter Notebooks
+  # You may pin to the exact commit or the version.
+  # uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@e22cb52580930a21c3121a44c9e67fa37e149121
+  uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
+  with:
+    # Optional list of linting checks to disable
+    disable-checks: # optional, default is 
